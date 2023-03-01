@@ -4,38 +4,197 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+
+    <script
+      src="https://kit.fontawesome.com/c70ff35609.js"
       crossorigin="anonymous"
-    />
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Test RCS</title>
+    <title>Ignacio - Web Developer</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-center"
-          id="navbarNav"
-        >
+    <nav class="nav" id="nav">
+      <h2 class="logo">Ignacio Brandan</h2>
+      <ul class="nav-links">
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a href="#nav" class="open"><i class="fa-solid fa-burger"></i></a>
+      <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+    </nav>
+    <header class="container" id="hero">
+      <section class="hero__img">
+        <img src="img/logo-final.png" alt="" />
+      </section>
+      <section class="hero__text">
+        <div>
+          <p>HELLO, MY NAME IS</p>
+        </div>
+        <div>
+          <h1>Ignacio Brandán</h1>
+          <p class="w-50">FullStack Developer</p>
+        </div>
+        <a href="#" class="btn"> Contact me </a>
+      </section>
+    </header>
+    <main class="container">
+      <section id="about">
+        <h2>About me</h2>
+        <article class="introduction">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            recusandae suscipit accusamus id ex consectetur voluptas
+            consequuntur eum quaerat sint reprehenderit quisquam debitis
+            quibusdam, repudiandae, impedit iste eligendi neque quam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            minima quibusdam sunt perspiciatis, repellendus amet saepe labore,
+            facere molestias ab libero minus culpa totam. Enim, magnam? Veniam
+            rem nobis velit aspernatur blanditiis ducimus assumenda qui at a?
+            Dignissimos dolorum nam fugit voluptas autem? Labore dolores minima
+            unde quo voluptates, veritatis, impedit officia architecto iure
+            voluptatem qui deleniti ducimus. Nostrum, earum? Distinctio, illum
+            nostrum! Aperiam ea at esse quas dicta, officia sapiente velit illum
+            cum neque unde. Repudiandae debitis ipsa temporibus quibusdam, vel
+            dolore minima delectus amet ratione sint facere alias dicta eum
+            earum quidem? Fuga doloremque cupiditate ipsum perferendis.
+            Aspernatur?
+          </p>
+        </article>
+        <article class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Html 5 & CSS 3</li>
+            <li>JavaScript</li>
+            <li>NODE JS</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="container" id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="card">
+          <h3>Project name</h3>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project name</h3>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project name</h3>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project name</h3>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project name</h3>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project name</h3>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-dark">
+            <ul>
+              <li>Resume:</li>
+              <li>URL:</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <h2>Contact Me!</h2>
+      <form class="">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea type="text" class="form-control" id="message"></textarea>
+        </div>
+        <button type="button" class="btn">Submit</button>
+      </form>
+      <section class="footer-menu">
+        <nav>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#hero">Home</a>
@@ -44,223 +203,20 @@
               <a class="nav-link" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Projects</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <header
-        class="vh-100 d-flex flex-column justify-content-center"
-        id="hero"
-      >
-        <h1>Portfolio</h1>
-        <p class="w-50">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi illo
-          repudiandae, laboriosam, fugiat a reprehenderit, itaque quae
-          voluptatem consequatur pariatur! Facilis doloremque voluptates aut
-          quam corporis accusantium veritatis unde.
-        </p>
-        <button type="button" class="btn btn-outline-secondary w-25">
-          Contact me
-        </button>
-      </header>
-      <main>
-        <!-- <section
-          class="about vh-100 d-flex flex-column justify-content-center"
-          id="about"
-        >
-          <article class="Skills">
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
-            </ul>
-          </article>
-        </section> -->
-        <section
-          class="gallery vh-100 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"
-          id="gallery"
-        >
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-secondary border-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHQmY0wAjBxFc7OCTrxE-ACL_T2fkIS3oM3j0ICBvVlQveqwSl4aeVf_Vnv0NfAd0Dag&usqp=CAU"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
+        </nav>
+        <section class="icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-github"></i>
+          <i class="fa-solid fa-square-envelope"></i>
         </section>
-        <section
-          class="contact vh-100 d-flex justify-content-center align-items-center"
-          id="contact"
-        >
-          <section class="w-50">
-            <section class="d-flex flex-column align-items-center">
-              <form class="w-50">
-                <legend class="text-center h3">Contact Me!</legend>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label"
-                    >Email address</label
-                  >
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label"
-                    >Password</label
-                  >
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                  />
-                </div>
-
-                <button type="button" class="w-100 btn btn-outline-secondary">
-                  Submit
-                </button>
-              </form>
-            </section>
-          </section>
-          <section class="w-50 d-flex flex-column align-items-center">
-            <p class="h2">ibrandandev@gmail.com</p>
-            <p class="h2">+54 1111 11 11 11</p>
-            <section class="d-flex w-25 justify-content-evenly">
-              <i class="bi bi-linkedin h1"></i>
-              <i class="bi bi-github h1"></i>
-            </section>
-          </section>
-        </section>
-      </main>
-    </div>
-
-    <footer
-      class="text-center bg-body-tertiary d-flex align-items-center justify-content-center"
-    >
-      <p class="text-secondary">Copyright 2023</p>
+        <p class="signature">© Ibrandan Projects</p>
+      </section>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
