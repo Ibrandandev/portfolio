@@ -1,0 +1,80 @@
+@import url("nav.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("portfolio.css");
+@import url("contact.css");
+
+/* Headings font */
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&family=Rubik+80s+Fade&family=Rubik+Iso&family=VT323&family=Wallpoet&display=swap");
+
+/* Headings font */
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Poppins&family=Prompt&family=Raleway&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap");
+
+:root {
+  --primary: #181823;
+  --secondary: #537fe7;
+  --tertiary: #e9f8f9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--tertiary);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-family: "Kanit", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+  font-size: calc(1.7rem + 1vw);
+  font-family: "Black Ops One", cursive;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: calc(1rem + 1vw);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  legend {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    padding: 0 10vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
