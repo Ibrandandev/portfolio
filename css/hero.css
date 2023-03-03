@@ -9,16 +9,14 @@
 }
 
 .hero__img {
-  border-radius: 10px;
-  padding: 1rem;
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero__img img {
-  width: 100%;
+  width: 75%;
 }
 
 .hero__text {
@@ -28,9 +26,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   padding: 1.3rem;
   text-align: center;
+}
+
+.hero__text .icons a {
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: var(--tertiary);
 }
 
 .hero__text .btn {
@@ -63,12 +67,12 @@
     padding: 5rem 1rem;
   }
 
-  .hero__img {
-    width: 55%;
+  .hero__text .icons a {
+    font-size: 2.5rem;
   }
 
   .hero__img img {
-    width: 100%;
+    width: 55%;
   }
 
   .hero__text .btn {
@@ -84,11 +88,7 @@
   }
 
   #hero {
-    padding: 5rem;
-  }
-
-  .hero__img {
-    width: 100%;
+    padding-left: 11vw;
   }
 
   .hero__img img {
@@ -97,12 +97,11 @@
 
   .hero__text {
     width: 100%;
+    text-align: start;
     align-items: flex-start;
-    text-align: left;
-    margin-left: 15vh;
   }
 
   .hero__text .btn {
-    width: 50%;
+    width: 40%;
   }
 }
