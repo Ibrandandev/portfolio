@@ -12,7 +12,9 @@
   background: #141e30;
   background: -webkit-linear-gradient(to right, #243b55, #141e30);
   background: linear-gradient(to right, #243b55, #141e30);
-  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 #nav:target {
@@ -25,7 +27,6 @@
 .logo {
   color: var(--color);
   z-index: 10;
-  /* overflow-wrap: break-word; */
 }
 
 .open,
@@ -48,7 +49,7 @@
 
 .nav-links {
   background-color: var(--tertiary);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -60,8 +61,6 @@
   font-size: 1.5rem;
   transition: 0.4s transform;
   padding-left: 1rem;
-  position: sticky;
-  top: 0;
 }
 
 .nav-link {
