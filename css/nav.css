@@ -12,6 +12,7 @@
   background: #141e30;
   background: -webkit-linear-gradient(to right, #243b55, #141e30);
   background: linear-gradient(to right, #243b55, #141e30);
+  width: 100%;
 }
 
 #nav:target {
@@ -59,6 +60,8 @@
   font-size: 1.5rem;
   transition: 0.4s transform;
   padding-left: 1rem;
+  position: sticky;
+  top: 0;
 }
 
 .nav-link {
