@@ -73,7 +73,7 @@ legend {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   body {
     font-size: 1.5rem;
   }
