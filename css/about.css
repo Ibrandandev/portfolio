@@ -11,7 +11,7 @@
   margin-top: 1rem;
 }
 
-.skills ul {
+#skills ul {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -30,11 +30,11 @@
     align-items: center;
   }
 
-  #about .introduction {
+  #introduction {
     width: 100%;
   }
 
-  #about .skills {
+  #skills {
     width: 100%;
   }
 }
